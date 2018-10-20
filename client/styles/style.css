@@ -1,0 +1,218 @@
+html
+{
+	height:100%;
+}
+body
+{
+	height:100%;
+	margin: 0px;
+}
+.red {
+	color: red
+}
+
+.topnav {
+  overflow: hidden;
+  background: #00c5ff;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #0000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.nav_icon {
+    float: left;
+    font-weight: bold;
+    margin-left: 20px;
+    color: #fff;
+}
+
+.nav_bar_links{
+  float:right;
+}
+
+.facebook_login{
+    padding: 5px;
+    margin-top: -1px;
+    background: none;
+    border: solid 0.9px #ffffff;
+    font-size: 11px;
+}
+
+.main_title{
+  font-family: MerriweatherSans;
+  font-size: 46.2px;
+  font-weight: 300;
+  text-align: center;
+  color: #ffffff;
+  padding: 185px;
+}
+
+.KnowledgeLocker {
+  width: 154px;
+  height: 24px;
+  font-family: Poppins;
+  font-size: 17.2px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.KnowledgeLocker .text-style-1 {
+  font-weight: bold;
+}
+.bg{
+  background: url('https://intrakraft-codewave.s3.ap-south-1.amazonaws.com/world_of_puma.jpg');
+}
+.cursor{
+      cursor: pointer;
+}
+
+.ad_desc{
+    padding-top: 2px !important;
+    padding-bottom: 2px !important;
+}
+
+.ant-row{
+    margin-top: 18px;
+}
+
+.user-nm{
+    float: left;
+    text-align: left;
+}
+.user-mn{
+    float: right;
+    text-align: right;
+}
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+    background-color: #d7eafc;
+    padding: 5px;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    /*min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;*/
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    cursor: inherit;
+    display: block;
+    width: 100%;
+}
+
+.profile-container > div{
+    padding-top: 7px;
+}
+
+.profile-name{
+    font-weight: bold;
+    float: left;
+    font-size: 22px;
+}
+
+.profile-premioum{
+    color:#00c5ff;
+    font-weight: bold;
+    float: left;
+    font-size: 15px;
+}
+
+.profile-expiry{
+    float: left;
+    font-size: 12px;
+}
+
+.profile-worktitle{
+    font-size: 16px;
+    float: left;
+}
+
+.profile-details{
+    float: left;
+    font-size: 15px;
+    color: #989191;
+    font-weight: 500;
+}
+
+.btnSaveProfile {
+    width: 125px;
+    height: 35px;
+    background-color: #18b324;
+    border-color: #18b324;
+}
+
+.save-btn{
+    display: inline-flex;
+    justifyContent: center;
+    alignItems: center;
+    marginBottom: 10px;
+}
+
+.side-pan{
+    margin-bottom: 50px;
+}
+.account-pg{
+    padding: 5px 5px 20px 5px;
+}
+
+.account-img{
+    height:100px;
+    width:100px;
+    border-radius: 50px;
+}
+
+.menu-icon{
+    float: right;
+    font-size: 24px;
+}
+
+.fb-account{
+    font-size: 80px;
+    color: #39549f;
+}
+
+.user-details{
+    padding-left: 15px;
+}
+
+.fb-icon{
+    font-size: 24px !important;
+    color: #39549f;
+}
+
+.li-icon{
+    font-size: 24px !important;
+    color: #3480b0;
+}
+.be-icon{
+    font-size: 24px !important;
+    color: #3172b4;
+}
+
+.twit-icon{
+     font-size: 24px !important;
+     color: #bdbdbc;
+}
+
+.git-icon{
+    font-size: 24px !important;
+    color: #000000;
+}
